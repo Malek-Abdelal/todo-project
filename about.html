@@ -6,60 +6,64 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/about.css">
     <title>ToDo</title>
 </head>
 
 <body>
     <header>
-
-        <section>
-            <img src="assets/logo.png" alt="logo">
-        </section>
-        <section>ToDo</section>
         <nav>
-            <section>
-                <ul>
-                    <li><a href="./index.html">Home</a></li>
-                    <li><a href="about.html">About us</a></li>
-                    <li><a href="">More</a></li>
-                </ul>
-            </section>
+            <img src="assets/logo.png" alt="logo">
+            <label>ToDo</label>
+            <ul>
+                <li><a href="./index.html">Home</a></li>
+                <li><a href="about.html">About us</a></li>
+                <li><a href="">More</a></li>
+            </ul>
         </nav>
     </header>
 
     <main>
         <section>
-            <img src="" alt="Personal photo">
-            <h2>Name</h2>
-            <h3>About me</h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam dignissimos cupiditate nam cum repudiandae
-                aperiam neque tenetur eum, eaque consequatur alias mollitia illo consectetur natus blanditiis saepe
-                labore quod doloremque.</p>
+            <div>
+                <img src="assets/avatar.png" alt="Personal photo">
+                <h2>Name</h2>
+            </div>
+            <dl>
+                <dt>About me</dt>
+                <dd>Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam dignissimos cupiditate nam cum
+                    repudiandae
+                    aperiam neque tenetur eum, eaque consequatur alias mollitia illo consectetur natus blanditiis saepe
+                    labore quod doloremque.</dd>
+            </dl>
         </section>
-        <section>
-            <form action="">
-                <label for="">Full name</label>
+
+        <form action="">
+            <div class="input">
                 <input type="text">
-                <br><br>
-                <label for="">Email</label>
                 <input type="email">
-                <br><br>
-                <label for="">Message</label>
                 <input type="text">
-                <br><br>
-                <button type="submit">submit</button>
-            </form>
-        </section>
+                <input type="submit" id="submitt"></input>
+            </div>
+            <div class="label">
+                <label for="">Full name</label>
+                <!-- <br><br> -->
+                <label for="">Email</label>
+                <!-- <br><br> -->
+                <label for="">Message</label>
+                <!-- <br><br> -->
+            </div>
+        </form>
     </main>
     <footer>
-        <section>
-            <p>&copy; All Right reserved.</p>
-        </section>
-        <section>
+        <p>&copy; All Right reserved.</p>
+        <div>
             <a href="#" class="fa fa-facebook"></a>
             <a href="#" class="fa fa-instagram"></a>
             <a href="#" class="fa fa-whatsapp"></a>
-        </section>
+        </div>
     </footer>
 </body>
 
