@@ -1,0 +1,83 @@
+main {
+    position: relative;
+}
+
+main section {
+
+    position: absolute;
+    left: 110px;
+    top: 50px;
+    width: 50%;
+}
+
+main section img {
+    height: 100px;
+    width: 100px;
+    margin: 25px;
+    display: inline;
+}
+
+main section h2 {
+    display: inline;
+    margin-left: 10px;
+    position: absolute;
+    top: 60px;
+}
+
+main dl {
+    margin-left: 40px;
+    margin-top: 20px;
+    font-size: 17px;
+    max-width: 350px;
+}
+
+main dt {
+    font-weight: bold;
+    margin-bottom: 10px;
+    font-size: 25px;
+}
+
+main form {
+    position: absolute;
+    right: 80px;
+    top: 100px;
+    width: 50%;
+}
+
+main form .input {
+    position: absolute;
+    right: 300px;
+    height: 300px;
+}
+
+main form .input input {
+    display: block;
+    margin-top: 40px;
+}
+
+main form .input #submitt {
+    margin-top: 15px;
+    margin-left: 10px;
+    color: rgb(10, 7, 7);
+    border-radius: 10px;
+    width: 60px;
+    cursor: pointer;
+
+}
+
+main form .label {
+    position: absolute;
+    left: 180px;
+    top: 17px;
+}
+
+main form .label label {
+    display: block;
+    color: black;
+    padding: 0;
+    font-size: 18px;
+}
+
+main form input {
+    margin-left: 0;
+}
