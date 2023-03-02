@@ -3,14 +3,16 @@
 var userName = prompt("Please inter your name:");
 var gender = prompt("Please inter your gender: (male / female)");
 var age = prompt("Please inter your age:");
-let visit = prompt("Is this your first time visiting this website ?");
-let field = prompt("Are you a programmer ?");
-let language = prompt("Do you familiar with JavaScript language ?");
 
 while (age <= 0) {
     alert("Your age is not correct, please inter a valid age.");
     age = prompt("Please inter a valid age:");
 }
+
+let visit = prompt("Is this your first time visiting this website ?");
+let field = prompt("Are you a programmer ?");
+let language = prompt("Do you familiar with JavaScript language ?");
+
 
 var welcMessage = confirm("Do you want to get the welcoming message ?");
 if (welcMessage == true) {
